@@ -25,8 +25,6 @@ public class Program {
             opcao = sc.nextInt();
             sc.nextLine();
 
-            System.out.println();
-
             try {
                 switch (opcao) {
 
@@ -44,7 +42,7 @@ public class Program {
                         break;
 
                     case 2:
-                        System.out.println("n--- LISTA DE TAREFAS ---");
+                        System.out.println("\n--- LISTA DE TAREFAS ---");
                         service.listarTarefas();
                         break;
 
